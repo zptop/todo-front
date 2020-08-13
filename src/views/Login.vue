@@ -258,7 +258,6 @@ export default {
         username: this.formLogin.userName,
         password: this.formLogin.userPwd
       };
-
       login(form)
       .then(res => {
         console.log('登录===', res);
