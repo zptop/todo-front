@@ -47,7 +47,7 @@ const userInfo = {
     // 退出登录
     logout({commit}) {
       commit('clearUserInfo', {})
-      location.href = '/login'
+      location.href = '#/login'
     }
   }
 
